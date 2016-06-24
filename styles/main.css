@@ -1,0 +1,276 @@
+body {
+  background-image: url(http://trickvilla.com/wp-content/uploads/Light-Wood-Background.jpg);
+  background-size: cover;
+}
+
+.clrs {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+.ctrl {
+    background-color: #ffec80;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    height: 350px;
+    top: -960px;
+    text-align: center;
+    right: -125px;
+    margin: 0;
+    width: 350px;
+}
+.title {
+    margin-top: 40px;
+    font-size: 45px;
+    font-family: 'Teko', sans-serif;
+}
+
+.simon {
+  background-color: #4d4d4d;
+  border-radius: 50%;
+  box-shadow: -3px 3px 10px black;
+  height: 600px;
+  margin: 10% auto;
+  width: 600px;
+}
+
+.grn {
+    background:green;
+    border-radius: 100% 0 0 0;
+    -moz-border-radius: 100% 0 0 0;
+    -webkit-border-radius: 100% 0 0 0;
+    height: 270px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    width: 270px;
+}
+.grn.active {
+    background-color: #80ff80;
+}
+
+.red {
+    background: red;
+    border-radius: 0 100% 0 0;
+    -moz-border-radius: 0 100% 0 0;
+    -webkit-border-radius: 0 100% 0 0;
+/*     border-bottom: 10px solid #fff;
+    border-left: 10px solid #4d4d4d; */
+    height: 270px;
+    position: relative;
+    top: -250px;
+    right: -310px;
+    width: 270px;
+}
+.red.active{
+    background-color: #ffb3b3;
+}
+
+.ylw {
+    
+    background: yellow;
+/*     border-top: 10px solid #4d4d4d;
+    border-right: 10px solid #4d4d4d; */
+    border-radius: 0 0 0 100%;
+    -moz-border-radius: 0 0 0 100%;
+    -webkit-border-radius: 0 0 0 100%;
+    height: 270px;
+/*     margin 10px 10px 0 0; */
+    position: relative;
+    top: -230px;
+    left: 20px;
+    width: 270px;
+/*     z-index: 1; */
+}
+.ylw.active{
+    background-color: #ffffcc;
+}
+
+.blu {
+    background: blue;
+    border-radius: 0 0 100% 0;
+    -moz-border-radius: 0 0 100% 0;
+    -webkit-border-radius: 0 0 100% 0;
+/*     border-top: 10px solid #4d4d4d;
+    border-left: 10px solid #4d4d4d; */
+    height: 270px;
+/*     margin: 10px 0 0 10px; */
+    position: relative;
+    top: -500px;
+/*     transition: .2s; */
+    left: 310px;
+    width: 270px;
+    z-index: 0;
+}
+.blu.active {
+    background-color: #b3b3ff;
+}
+
+.big {
+/*     box-sizing: border-box; */
+    cursor: pointer;
+    -webkit-box-shadow:inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow:inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow:inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.big:active, .big.active {
+    -webkit-box-shadow:inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow:inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow:inset 0px 0px 10px 10px rgba(0,0,0,0.75);
+}
+
+.circ{
+    background-color: #4d4d4d;
+    cursor: default;
+    height: 180px;
+    position: relative;
+    width: 180px;
+}
+.circ.Grn {
+    border-radius: 100% 0 0 0;
+    left: 90px;
+    top: 90px;
+}
+.circ.Red {
+    border-radius: 0 100% 0 0;
+    top: 90px;
+}
+.circ.Ylw {
+    border-radius: 0 0 0 100%;
+    left: 90px;
+}
+.circ.Blu {
+    border-radius: 0 0 100% 0;
+}
+
+.count {
+    background-color: #330000;
+    border: 3px inset #ffec80;
+    border-radius: 5px;
+    color: #b30000;
+    font-size: 40px;
+    font-family: 'Inconsolata';
+    left: 40px;
+    top: -50px;
+    height: 50px;
+    width: 80px;
+    padding-top: 5px;
+    position: relative;
+}
+.cnt  {
+    position: relative;
+    left: 65px;
+    top: -50px;
+    margin: 0;
+    text-align: left;
+}
+
+.start {
+    background-color: #cc0000;
+    border: 3px solid #4d4d4d;
+    border-radius: 50%;
+    box-shadow: -1px 1px 6px black;
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    left: 158px;
+    top: -110px;
+    position: relative;
+}
+.start:active {
+    box-shadow: 0 0 3px black;
+    top: -109px;
+    left: 157px;
+}
+.strt{
+    position: relative;
+    top: -120px;
+    left: -2px;
+}
+
+.strict {
+    background-color: yellow;
+    border: 3px solid #4d4d4d;
+    border-radius: 50%;
+    box-shadow: -1px 1px 6px black;
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    left: 230px;
+    top: -211px;
+    position: relative;
+}
+.strict:active {
+    box-shadow: 0 0 3px black;
+    top: -210px;
+    left: 229px;
+}
+.strct{
+    position: relative;
+    left: 70px;
+    top: -224px;
+}
+.strctLt{
+/*     turn orange when clicked */
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    left: 240px;
+    top: -220px;
+    position: relative;
+}
+
+.power {
+    background-color: black;
+    border: 3px inset #ffec80;
+    height: 30px;
+    width: 50px;
+    top: -200px;
+    left: 145px;
+    padding: 2px 2px 0px 2px;
+    position: relative;
+    z-index:3;
+}
+.power div {
+/*     switch back and forth on click */
+    background-color: #0073e6;
+    box-sizing: border-box; 
+    border: 2px outset #0073e6;
+    cursor: pointer;
+    height: 28px;
+    width: 20px;
+    margin: 0;
+    float: left;
+    z-index:3;
+}
+.powOff {
+/*     background-color: #0073e6; */
+    left: 90px;
+    top: -245px;
+    position: relative;
+    width: 50px;
+}
+.powOn {
+/*     background-color: white; */
+    left: 200px;
+    top: -285px;
+    position: relative;
+    width: 50px;
+}
+
+
+
+.me {
+    margin: 100px 0;
+    text-align: center;
+}
+.me a {
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+}
